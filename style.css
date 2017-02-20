@@ -1,17 +1,18 @@
-h2{
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5zMJSxs75XUMZo3qVrkCcJbMK11TyGph_BC0Z34UBPgDrT2Nj7Q");
+
+}
+h2 {
   margin: 0;
   padding: 0;
   text-align: center;
   position: relative;
   left: 10px;
   top:27px;
-  color: white;
+  color: #fff;
 }
-body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5zMJSxs75XUMZo3qVrkCcJbMK11TyGph_BC0Z34UBPgDrT2Nj7Q");
- 
-}
-.box{
+
+.box {
   height:400px;
   width: 250px;
   background-color: #3d4543;
@@ -19,8 +20,9 @@ body {
   position: relative;
   top: 100px;
   left:40%;
-  box-shadow: 20px 20px;
+  box-shadow: 10px 10px;
 }
+
 .display {
   background-color:#222;
   width:250px;
@@ -28,9 +30,9 @@ body {
   position: relative;
   height:40px;
 
-  
 }
-.display input{
+
+.display input {
   position: relative;
   left:26px;
   top:4px;
@@ -40,15 +42,18 @@ body {
   text-align: right;
   border-radius: 20px;
 }
+
 .keys {
   position:relative;
   top:0.5px;
   margin: 10px;
   margin-left: 20px;
 }
+
 .clear {
   height:140px;
 }
+
 .btn {
   width:30px;
   height: 30px;
@@ -71,15 +76,15 @@ body {
   box-shadow: 2px 2px red;
   transition:1s;
 }
- .b{
-  background-color: grey;
+.b {
+   background-color: grey;
    height: 40px;
    width: 97px;
    font-weight: bold;
-  font-size: 20px;
+   font-size: 20px;
    box-shadow: 2px 2px red;
    transition: 1s, transform 0.8s;
-   
+
 }
 .u {
   width:80px;
@@ -87,7 +92,8 @@ body {
   font-size: 20px;
   background-color: grey;
 }
+
 .btn:hover, .num:hover{
   background-color: red;
-  transform: rotate(360deg);
+  
 }
